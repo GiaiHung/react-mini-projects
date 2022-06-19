@@ -3,6 +3,11 @@
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
+.nav-center {
+    display: flex;
+    flex-direction: column;
+}
+
 .nav-header {
     display: flex;
     align-items: center;

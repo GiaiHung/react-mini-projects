@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react"
 import { useGlobalContext } from "../context"
-import sublinks from '../data'
+// import sublinks from '../data'
 
 const SubMenu = () => {
   const { isSubmenuOpen, page: { page, links }, location } = useGlobalContext()
