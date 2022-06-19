@@ -90,8 +90,9 @@
 
 @media screen and (min-width: 800px) {
     .nav-center {
-        display: grid;
-        grid-template-columns: 1fr 3fr .5fr;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
         align-items: center;
     }
 
