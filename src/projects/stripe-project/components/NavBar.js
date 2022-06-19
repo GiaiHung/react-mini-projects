@@ -23,7 +23,7 @@ const NavBar = () => {
 
   return (
     <nav className='nav' onMouseOver={handleSubmenu}>
-      <div className="nav-center">
+      <div className="stripe-nav-center">
         <div className="nav-header">
           <img src={logo} alt="logo" />
           <button className='btn toggle-btn' onClick={openSidebar}>

@@ -143,7 +143,7 @@ p {
   position: relative;
   z-index: 2;
 }
-.nav-center {
+.stripe-nav-center {
   width: 90vw;
   max-width: var(--max-width);
 }
@@ -216,7 +216,7 @@ p {
 
 /* nav media query */
 @media screen and (min-width: 800px) {
-  .nav-center {
+  .stripe-nav-center {
     margin: auto;
     display: grid;
     grid-template-columns: auto 1fr auto;
