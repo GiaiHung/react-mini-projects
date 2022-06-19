@@ -1,0 +1,124 @@
+.navbar-main {
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.logo img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    object-fit: cover;
+}
+
+.btn-toggle {
+    background-color: transparent;
+    font-size: 1.5rem;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.btn-toggle:hover {
+    transform: rotate(90deg);
+}
+
+.links-container {
+    height: 0;
+    overflow: hidden;
+    transition: all .4s ease-in-out;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: .7rem;
+    padding-bottom: 1rem;
+}
+
+.links a {
+    display: block;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #222;
+    transition: all .3s ease-in-out;
+}
+
+.links li {
+    width: 100%;
+    cursor: pointer;
+}
+
+.links a {
+    text-align: center;
+    width: 100%;
+}
+
+.links a:hover {
+    background-color: rgb(160, 59, 255);
+    padding-left: 1.5rem;
+    color: #fff;
+}
+
+.show-container {
+    height: 10rem;
+}
+
+.social-icons {
+    display: none;
+}
+
+
+@media screen and (min-width: 800px) {
+    .nav-center {
+        display: grid;
+        grid-template-columns: 1fr 3fr .5fr;
+        align-items: center;
+    }
+
+    .links-container {
+        margin-top: 1rem;
+        height: auto !important;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .social-icons {
+        border: none;
+        background-color: transparent;
+        color: rgb(160, 58, 255);
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+        font-size: 1.2rem;
+        list-style-type: none;
+        margin-right: 1rem;
+    }
+
+    .btn-toggle {
+        display: none;
+    }
+
+    .btn-toggle:hover {
+        transform: rotate(0deg);
+    }
+}

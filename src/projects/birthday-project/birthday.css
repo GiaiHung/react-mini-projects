@@ -1,0 +1,45 @@
+.birthday-container {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    width: 35vw;
+    min-width: 400px;
+    height: 70vh;
+    background-color: #eee;
+    box-shadow: 3px 5px 15px #222;
+    overflow: auto;
+}
+
+.birthday-button {
+    color: #fff;
+    display: block;
+    width: 80%;
+    border-color: transparent;
+    background: blueviolet;
+    margin: 2rem auto 0 auto;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    padding: 1rem 0.5rem;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    outline: 1px solid rgba(242, 138, 178, 0.8);
+    cursor: pointer;
+}
+
+.birthday-person {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 0.75rem;
+    margin-bottom: 1.5rem;
+    align-items: center;
+}
+
+.birthday-person img {
+    margin-left: 10px;
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
