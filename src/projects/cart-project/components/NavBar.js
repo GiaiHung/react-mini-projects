@@ -5,7 +5,7 @@ const NavBar = () => {
   const { amount } = useGlobalContext()
   return (
     <nav>
-      <div className="nav-center">
+      <div className="cart-nav-center">
         <h2>Cart</h2>
         <div className="nav-icon">
           <BsFillBagFill />
